@@ -1,0 +1,45 @@
+# Windows Only
+# Dependencies: pip install pywin32 irc
+
+import win32com.client
+import irc.bot
+
+# your username
+username = "dzshy"
+botname = "mybot"
+# channel name, prepending '#' is a must
+channel = "#dzshy"
+# To get a token, visit: http://twitchapps.com/tmi/
+token = "oauth:YOUR TOKEN HERE"
+
+server = "irc.chat.twitch.tv"
+port = 6667
+
+speaker = win32com.client.Dispatch("SAPI.SpVoice")
+
+class TwitchBot(irc.bot.SingleServerIRCBot):
+    def __init__(self, username, client_id, token, channel):
+        self.client_id = client_id
+        self.token = token
+        self.channel = channel
+
+        print('Connecting to ' + server + ' on port ' + str(port) + '...')
+        irc.bot.SingleServerIRCBot.__init__(self, [(server, port, token)], username, username)
+        
+
+    def on_welcome(self, c, e):
+        print('Joining ' + self.channel)
+
+        # You must request specific capabilities before you can use them
+        c.join(self.channel)
+
+    def on_pubmsg(self, c, e):
+        self.on_msg(e.source.nick, e.arguments[0])
+
+    def on_msg(self, nick, msg):
+        print(nick + ": " + msg)
+        speaker.Speak(nick + "说：" + msg)
+
+if __name__ == "__main__":
+    bot = TwitchBot(username,botname, token, channel)
+    bot.start()
