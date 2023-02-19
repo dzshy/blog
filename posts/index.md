@@ -175,6 +175,62 @@
 <a href="2020/chinese-calender/">农历的编算</a>
 </span>
 
+<span class="date">
+2019-12-06
+</span><br>
+<span class="value">
+<a href="2019/graduate/">苦痛之路</a>
+</span>
+
+<span class="date">
+2019-03-16
+</span><br>
+<span class="value">
+<a href="2019/ham/">业余无线电台操作技术能力验证学习笔记</a>
+</span>
+
+<span class="date">
+2018-12-30
+</span><br>
+<span class="value">
+<a href="2018/hangzhou/">杭州游记</a>
+</span>
+
+<span class="date">
+2018-07-13
+</span><br>
+<span class="value">
+<a href="2018/blockchain/">我为何认为区块链不会是未来</a>
+</span>
+
+<span class="date">
+2018-04-12
+</span><br>
+<span class="value">
+<a href="2018/gatherer/">只是一个食物采集者</a>
+</span>
+
+<span class="date">
+2017-09-26
+</span><br>
+<span class="value">
+<a href="2017/sns/">谈一谈乱序时间线</a>
+</span>
+
+<span class="date">
+2017-06-21
+</span><br>
+<span class="value">
+<a href="2017/graduate/">毕业记</a>
+</span>
+
+<span class="date">
+2017-04-18
+</span><br>
+<span class="value">
+<a href="2017/sns-addiction/">社交网络的戒断反应</a>
+</span>
+
 <style>
 span.date {
     color: #7a7a7a;
