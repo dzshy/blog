@@ -32,13 +32,6 @@
 <a href="2023/crontab/">Crontab速查</a>
 </span>
 
-<span class="date">
-2023-01-16
-</span><br>
-<span class="value">
-<a href="2023/vertical-rl/">纵书样式测试</a>
-</span>
-
 <span class="date">2023-01-07</span><br>
 <span class="value"><a href="2023/designatedinit/">指定初始化</a></span>
 
@@ -247,7 +240,6 @@
 
 <style>
 span.date {
-    color: #7a7a7a;
     font-size: 0.8em;
 };
 </style>
