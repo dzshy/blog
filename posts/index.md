@@ -59,14 +59,6 @@
 
 
 <span class="date">
-2022-11-12
-</span><br>
-<span class="value">
-<a href="2022/fedora/">定制Fedora</a>
-</span>
-
-
-<span class="date">
 2022-09-07
 </span><br>
 <span class="value">
@@ -243,3 +235,4 @@ span.date {
     font-size: 0.8em;
 };
 </style>
+

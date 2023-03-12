@@ -2,4 +2,4 @@ drafts/
 todo
 *.html
 posts/rss.xml
-posts/templates
+static/
